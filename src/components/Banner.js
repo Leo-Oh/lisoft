@@ -61,7 +61,10 @@ export const Banner = () => {
                   data-rotate='[ "Software Engineer", "Backend Developer", "Python Junior Developer" ]'>
                     <span className="wrap">{text}</span></span></h1>
                     
-                  <p> Software engineer with two years of experience in the design and implementation of software programs for industrial companies. I master several programming languages (Python, Java and JavaScript), web development, mobile application development, microservices in kubernetes and docker. I worked at roandai, where I implemented several applications in a kubernte architecture for American companies, developing solutions using python and managing linux-based servers. I have knowledge in automation solutions such as web scraping, text detection (OCR), object detection and devops among other skills.</p>
+                  <p> Software engineer with some years of experience in the design and implementation of software programs for industrial companies.
+                     I master several programming languages (Python, Java and JavaScript), 
+                     web development, mobile application development, microservices in kubernetes and docker.
+                      I have knowledge in automation solutions such as web scraping, text detection (OCR), object detection and devops among other skills.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
